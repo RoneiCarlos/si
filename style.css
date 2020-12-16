@@ -1,0 +1,204 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+}
+
+body{
+	background-color: black;
+}
+
+.bg-menu {
+	width: 100%;
+	position: fixed;
+	background-color: black;
+}
+
+.menu {
+	margin-left: 15vw;
+	width: 100%;
+}
+
+.menu img {
+	float: left;
+	margin-right: 20px;
+	width: 50px;
+}
+
+li {
+	cursor: pointer;
+	padding: 20px 25px 15px 25px;
+	font-size: 1em;
+	color: darkred;
+	list-style-type: none; 
+	float: left;
+}
+
+li:hover, .aba-menu {
+	color: white;
+	background-color: darkred;
+}
+
+.espaco {
+	padding-top: 56.4px;
+}
+
+.imagem {
+	background-color: black;
+	text-align: center;
+	width: 100%;
+}
+
+.img {
+	cursor: none;
+	width: 79.4%;
+}
+
+.titulo {
+	text-align: center;
+	margin-top: 4em;
+}
+
+.titulo h1 {
+	font-size: 3em;
+	color: darkred;
+}
+
+.texto {
+	margin: 4vh 15vw 0 15vw;
+}
+
+.texto p {
+	color: white;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+.iframe {
+	text-align: center;
+	margin-top: 4vh;
+}
+
+.iframe iframe {
+	width: 77vw;
+	height: 40vw;
+}
+
+.botao {
+	text-align: center;
+	margin: 4vh 0 4vh 0;
+}
+
+.botao a {
+	font-size: 10em;
+	border: 0px;
+	background-color: black;
+	color: darkred;
+}
+
+.rodape {
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	padding: 80px 0 40px 0;
+	bottom: 0px;
+}
+
+.rodape a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.rodape a:hover {
+	text-decoration: underline;
+}
+
+.corpo-temporadas {
+	margin: 4vh 15vw 4vh 15vw;
+	color: white;
+	text-align: center;	
+}
+
+.temporadas {
+	width: 100%;
+	border-color: 1px solid white;
+	border-collapse: collapse;
+}
+
+.temporadas .linha1:hover {
+	background-color: black;
+}
+
+.temporadas tr:hover {
+	background-color: white;
+	color: black;
+}
+
+.temporadas th {
+	color: darkred;	
+}
+
+.temporadas th, .temporadas td {
+	overflow: hidden;
+	padding: 25px 0 20px 0;
+}
+
+.temporadas td a {
+	text-decoration: none;
+	color: darkred;
+}
+
+.trailers {
+	padding: 4vh 15vw 4vh 15vw;
+	/*background-color: yellow;*/
+}
+
+.trailer {
+	/*background-color: green;*/
+	padding: 8vh 1vw 6vh 1vw;
+	margin-top: 2vh;
+	margin-bottom: 4vh;
+}
+
+.trailer h2 {
+	color: white;
+	font-size: 1.7em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.trailer iframe {
+	width: 30vw;
+	height: 17vw;
+	float: left;
+	margin-right: 20px;
+}
+
+.trailer p {
+	color: white;
+	font-size: 1.5em;
+	text-align: justify;
+	padding: 1vh 0vw 1vh 0vw;
+}
+
+.personagens-div {
+	margin-left: 21.5%;
+}
+
+.personagens {
+	border-collapse: collapse;
+	border-color: black;
+	color: white;
+	text-align: center;
+}
+
+.fotos td {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	overflow: hidden;
+}
+
+.fotos td img {
+	width: 150px;
+}
